@@ -1,4 +1,4 @@
-# gui.py
+
 
 from tkinter import *
 from PIL import Image, ImageTk
@@ -15,9 +15,6 @@ windows.title("Face Attendance System")
 windows.configure(background="white")
 
 
-# =========================
-# IMAGE
-# =========================
 
 try:
 
@@ -35,9 +32,7 @@ except:
     pass
 
 
-# =========================
-# VARIABLES
-# =========================
+
 
 fn = StringVar()
 
@@ -48,9 +43,7 @@ dn = StringVar()
 v = StringVar()
 
 
-# =========================
-# TITLE
-# =========================
+
 
 title = Label(
     windows,
@@ -63,9 +56,7 @@ title = Label(
 title.pack(pady=10)
 
 
-# =========================
-# NEW USER SECTION
-# =========================
+
 
 Label(
     windows,
@@ -101,9 +92,6 @@ entry_id = Entry(
 entry_id.place(x=220, y=320)
 
 
-# =========================
-# DELETE USER
-# =========================
 
 Label(
     windows,
@@ -122,9 +110,7 @@ entry_delete = Entry(
 entry_delete.place(x=220, y=380)
 
 
-# =========================
-# STATUS LABEL
-# =========================
+
 
 status = Label(
     windows,
@@ -137,9 +123,7 @@ status = Label(
 status.place(x=50, y=430)
 
 
-# =========================
-# BUTTONS
-# =========================
+
 
 button_submit = Button(
     windows,
